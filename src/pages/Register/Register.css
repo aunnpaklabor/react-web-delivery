@@ -1,0 +1,51 @@
+.register-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ), 
+        url(https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+
+.registerTitle {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.registerForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registerInput {
+    flex: 1;
+    min-width: 60%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.registerAgreement {
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.registerButton {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}   
+

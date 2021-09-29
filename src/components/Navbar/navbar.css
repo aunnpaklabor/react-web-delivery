@@ -1,0 +1,54 @@
+.navbarContainer {
+    height: 60px;
+}
+
+.wrapper {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.searchContainer {
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+input {
+    border: none;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 25px;
+}

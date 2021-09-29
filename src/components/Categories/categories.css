@@ -1,0 +1,43 @@
+.categories-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.categoriesItemContainer{
+    flex: 1;
+}
+
+.imgCat {
+    width: 100%;
+    height: 100%;
+}
+
+.infoCat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.titleCat {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.buttonCat {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+}
